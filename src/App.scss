@@ -1,3 +1,16 @@
 iframe {
   display: none;
 }
+
+.dropdown {
+  &-item {
+    &:hover {
+      background-color: rgb(37, 37, 66);
+      cursor: pointer;
+    }
+  }
+}
+
+.has-text-danger {
+  display: none;
+}
