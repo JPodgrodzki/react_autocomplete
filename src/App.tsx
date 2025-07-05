@@ -117,7 +117,7 @@ export const App: React.FC = () => {
             role="alert"
             data-cy="no-suggestions-message"
           >
-            <p className={visiblePeople.length > 0 ? 'has-text-danger' : ''}>
+            <p className={visiblePeople.length === 0 ? 'has-text-danger' : ''}>
               No matching suggestions
             </p>
           </div>
