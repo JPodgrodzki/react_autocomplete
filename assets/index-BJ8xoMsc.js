@@ -43,4 +43,4 @@ Error generating stack: `+i.message+`
             is-light
             mt-3
             is-align-self-flex-start
-          `,role:"alert","data-cy":"no-suggestions-message",children:se.jsx("p",{className:p.length>0?"has-text-danger":"",children:"No matching suggestions"})})]})})};ec(document.getElementById("root")).render(se.jsx(Td,{}));
+          `,role:"alert","data-cy":"no-suggestions-message",children:se.jsx("p",{className:p.length===0?"has-text-danger":"",children:"No matching suggestions"})})]})})};ec(document.getElementById("root")).render(se.jsx(Td,{}));
